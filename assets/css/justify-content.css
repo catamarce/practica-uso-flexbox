@@ -13,6 +13,40 @@ body {
   border-radius: 10px;
   display: flex;
 }
+.container-center {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.container-end {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: end;
+}
+.container-between {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-around {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.container-evenly {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
 .item {
   width: 10%;
 }
