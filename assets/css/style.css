@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #404040;
+  color: white;
+}
+.main {
+  width: 80%;
+  margin: auto;
+}
+.container {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #404040;
+  color: white;
+}
+.main {
+  width: 80%;
+  margin: auto;
+}
+.container-start {
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+}
+.item {
+  width: 10%;
+}
+.item img {
+  width: 100%;
+}
