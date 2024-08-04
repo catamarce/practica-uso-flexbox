@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/flex-grow.css">
+  <title>flex-grow</title>
+</head>
+<body>
+  <div class="main">
+    <p>display: flex; (valor por defecto)</p>
+      <div class="container-flex">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+      </div>
+
+      <p>flex-grow: 1; (aplicado solo item 2)</p>
+      <div class="container-flex">
+        <div class="item">1</div>
+        <div class="item-grw1">2</div>
+        <div class="item">3</div>
+      </div>
+
+      <p>flex-grow: 2; (aplicado solo item 3)</p>
+      <div class="container-flex">
+        <div class="item">1</div>
+        <div class="item-grw1">2</div>
+        <div class="item-grw2">3</div>
+      </div>
+
+  </div>
+  
+</body>
+</html>

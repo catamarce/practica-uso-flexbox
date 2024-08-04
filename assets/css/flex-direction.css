@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #404040;
+  color: white;
+}
+.main {
+  width: 80%;
+  margin: auto;
+}
+.container-fila {
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+}
+.container-fila-reverse {
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.container-columna {
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;  
+}
+.container-columna-reverse {
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column-reverse;  
+}
+.item {
+  width: 10%;
+  height: 30%;
+  margin: 5px;
+  background-color: chocolate;
+  border-radius: 3px;
+  text-align: center;
+}
